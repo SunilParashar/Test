@@ -1,0 +1,15 @@
+﻿body {
+    background-color: floralwhite;
+}
+li a {
+    font-size: 18px;
+}
+    li a:hover {
+        font-size: 20px;
+        -moz-transition: .08S;
+        -o-transition: .08S;
+        -webkit-transition: .08S;
+        transition: .08S;
+        border: 2px solid darkblue;
+        border-radius: 30px;
+    }
