@@ -167,7 +167,9 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Registration.cs" />
     <Compile Include="Models\TestMed2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -175,6 +177,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\regStyle.css" />
     <Content Include="Content\stylesheet.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -230,6 +233,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\TestMed\Test.cshtml" />
+    <Content Include="Views\Shared\_NavigationBar.cshtml" />
+    <Content Include="Views\Shared\_lbar.cshtml" />
+    <Content Include="Views\Shared\_TestBody.cshtml" />
+    <Content Include="Views\TestMed\Registration.cshtml" />
+    <Content Include="Views\TestMed\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

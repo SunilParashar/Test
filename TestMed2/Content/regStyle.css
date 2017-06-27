@@ -1,0 +1,108 @@
+﻿/* CSS for Registeration Page and Login Page */
+
+fieldset {
+    font-family: sans-serif;
+    border: 1px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 60%;
+    margin: 15%;
+    margin-top: 90px;
+
+
+}
+
+fieldset legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+    width: 100px;
+    text-align:center;
+}
+.span3 {
+    font-size: 18px;
+    margin-left: -10px;
+    color: #1f497d;
+    font-family: sans-serif;
+    
+   
+}
+
+.lreg {
+    width: 48%;
+    display: inline-block
+}
+.rreg {
+    width: 48%;
+    float: right;
+    display: inline-block;
+}
+.checkbox1 {
+    border: 1px;
+    padding-bottom: 40px;
+    float:right;
+    
+}
+/*.checkbox1 .c2 {
+    margin-left: 30px;
+    padding-left: 30px;
+    
+}*/
+.fld-login{
+    font-family: sans-serif;
+    border: 1px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 45%;
+    margin: 30%;
+    margin-top: 90px;
+    background-color:ActiveCaption;
+    
+}
+.btn-block{
+    border-radius:15px;
+    border:1px solid blue;
+    
+}
+    .btn-block:hover {
+        background-color: blue;
+        font-size: 15px;
+        -moz-transition: 0.2S;
+        -o-transition: 0.2S;
+        -webkit-transition: 0.2S;
+        transition: 0.2S;
+        color:white;
+    }
+.fld-reg{
+    font-family: sans-serif;
+    border: 1px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 60%;
+    margin: 20%;
+    margin-top: 90px;
+    background-color:ActiveCaption;
+
+    
+}
+.p1 {
+    color: red;
+    float: left;
+    margin-right: 10px;
+    border: 30px;
+}
+/*.asd{
+    float:left;
+   
+    display:inline-block;
+}
+.asd .col-md-6{
+    width:60%;
+}*/

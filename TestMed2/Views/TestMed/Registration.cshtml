@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    @Styles.Render("~/Content/bootstrap.css")
+    @Styles.Render("~/Content/stylesheet.css")
+    @Styles.Render("~/Content/regStyle.css")
+    
+
+
+</head>
+<body>
+    @{
+        Html.RenderPartial("_NavigationBar");
+    }
+
+    <fieldset class="fld-reg">
+        <legend>Personalia:</legend>
+
+        <form>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="asd col-md-6"><p class="p1 ">Please choose your option</p></div>
+
+                        <div class="checkbox1 col-md-6">
+                            <label><input value="1" type="radio" name="formselector" onclick="displayForm(this)" class="c1">Student</label>
+                            <div class="checkbox1 col-md-6">
+                                <label><input value="2" type="radio" name="formselector" onclick="displayForm(this)" class="c2">Teacher</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    @*<div class="lreg">*@
+                    <div class="form-group  col-md-6 ">
+                        <label>First Name:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Last Name:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Email:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group col-md-6 ">
+                        <label>Address:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label>Confirm Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    @*</div>*@
+                    @*<div class="rreg">*@
+
+
+                    @*</div>*@
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+        </form>
+        <button type="submit" class="btn btn-block">Submit</button>
+
+
+    </fieldset>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+</body>
+</html>

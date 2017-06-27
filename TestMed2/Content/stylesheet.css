@@ -1,15 +1,37 @@
-﻿body {
+﻿/*css form leftbar menu*/
+
+body {
     background-color: floralwhite;
+    
 }
 li a {
-    font-size: 18px;
+    font-size: 15px;
+    
 }
     li a:hover {
-        font-size: 20px;
+        font-size: 16px;
         -moz-transition: .08S;
         -o-transition: .08S;
         -webkit-transition: .08S;
         transition: .08S;
-        border: 2px solid darkblue;
-        border-radius: 30px;
+        /*border: 1px solid darkblue;
+        border-radius: 5px;*/
+        
+        width: 100px;
     }
+.content {
+    padding-top: 70px;
+}
+.lbar {
+    background-color: red;
+    float: left;
+    height: 300px;
+    position: fixed;
+    width: 130px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+   
